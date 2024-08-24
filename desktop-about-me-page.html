@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./desktop-about-me-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-about-me-page">
+      <header class="frame-header-group">
+        <div class="frame-header3">
+          <div class="frame-parent">
+            <div class="j-wrapper">
+              <a class="j2">J</a>
+            </div>
+            <a class="book2">Book</a>
+          </div>
+          <nav class="frame-header-inner">
+            <nav class="frame-home-parent">
+              <div class="frame-home3" id="frameHomeContainer">
+                <a class="home3">Home</a>
+              </div>
+              <div class="frame-about-me3">
+                <a class="about3">About me</a>
+              </div>
+              <div class="frame-contact3" id="frameContactContainer">
+                <a class="contact3">Contact</a>
+              </div>
+            </nav>
+          </nav>
+        </div>
+        <div class="label-home-frame">
+          <img
+            class="label-home2"
+            loading="lazy"
+            alt=""
+            src="./public/label--home.svg"
+          />
+        </div>
+      </header>
+      <section class="desktop-about-me-page-inner">
+        <div class="image-content-parent">
+          <div class="image-content">
+            <img
+              class="frame-image"
+              loading="lazy"
+              alt=""
+              src="./public/frame--icon@2x.png"
+            />
+          </div>
+          <div class="my-name-is-jessie-perez-im-a-parent">
+            <h2 class="my-name-is">
+              My name is jessie perez, I’m a programmer and also Front-End
+              developer, using my skills i become a good front-end developer and
+              designer.
+            </h2>
+            <div class="frame-wrapper">
+              <img
+                class="frame-child"
+                loading="lazy"
+                alt=""
+                src="./public/frame-1@2x.png"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var frameHomeContainer = document.getElementById("frameHomeContainer");
+      if (frameHomeContainer) {
+        frameHomeContainer.addEventListener("click", function (e) {
+          window.location.href = "./desktop-homepage.html";
+        });
+      }
+      
+      var frameContactContainer = document.getElementById("frameContactContainer");
+      if (frameContactContainer) {
+        frameContactContainer.addEventListener("click", function (e) {
+          window.location.href = "./desktop-contact-page.html";
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./desktop-contact-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-contact-page">
+      <img
+        class="logo-google-icon-png-1"
+        alt=""
+        src="./public/logogoogleiconpng-1@2x.png"
+      />
+
+      <header class="frame-header1">
+        <div class="navigation-container">
+          <div class="book-navigation">
+            <a class="j1">J</a>
+          </div>
+          <a class="book1">Book</a>
+        </div>
+        <nav class="home-navigation">
+          <nav class="navigation-links">
+            <div class="frame-home1" id="frameHomeContainer">
+              <a class="home1">Home</a>
+            </div>
+            <div class="frame-about-me1" id="frameAboutMe">
+              <a class="about1">About me</a>
+            </div>
+            <div class="frame-contact1">
+              <a class="contact1">Contact</a>
+            </div>
+          </nav>
+        </nav>
+      </header>
+      <section class="label-home-container">
+        <h1 class="label-home1">CONTACT</h1>
+      </section>
+      <section class="content">
+        <div class="footer-content">
+          <div class="navigation-duplicate">
+            <div class="frame-header2">
+              <div class="frame-home2">
+                <div class="home2">Home</div>
+              </div>
+              <div class="frame-about-me2">
+                <div class="about2">About me</div>
+              </div>
+              <div class="frame-contact2">
+                <div class="contact2">Contact</div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-info">
+            <div class="contact-details">
+              <div class="contact-links">
+                <img
+                  class="link-gmail-icon"
+                  loading="lazy"
+                  alt=""
+                  src="./public/logogoogleiconpng-1@2x.png"
+                />
+
+                <img
+                  class="link-gmail-icon"
+                  loading="lazy"
+                  alt=""
+                  src="./public/104458-facebook-social-media-fb-social-icon-1@2x.png"
+                />
+              </div>
+              <div class="instagram-icon-1">
+                <img
+                  class="group-icon"
+                  loading="lazy"
+                  alt=""
+                  src="./public/group.svg"
+                />
+
+                <h2 class="thank-you-guys">Thank you guys!</h2>
+              </div>
+            </div>
+            <div class="information">
+              <div class="footer">
+                <div class="email-address-wrapper">
+                  <div class="email-address">
+                    <h2 class="jcmagallonperezgmailcom">
+                      Jcmagallonperez@gmail.com
+                    </h2>
+                    <img
+                      class="image-icon"
+                      loading="lazy"
+                      alt=""
+                      src="./public/frame--icon@2x.png"
+                    />
+                  </div>
+                </div>
+                <div class="name-container">
+                  <h2 class="jc-perez">Jc Perez</h2>
+                  <h2 class="j-z-mo">@J_z_mo</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var frameHomeContainer = document.getElementById("frameHomeContainer");
+      if (frameHomeContainer) {
+        frameHomeContainer.addEventListener("click", function (e) {
+          window.location.href = "./desktop-homepage.html";
+        });
+      }
+      
+      var frameAboutMe = document.getElementById("frameAboutMe");
+      if (frameAboutMe) {
+        frameAboutMe.addEventListener("click", function (e) {
+          window.location.href = "./desktop-about-me-page.html";
+        });
+      }
+      </script>
+  </body>
+</html>
