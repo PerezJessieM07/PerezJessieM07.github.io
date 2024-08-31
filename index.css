@@ -125,6 +125,7 @@
   color: var(--color-white);
   font-family: var(--font-poppins);
 }
+@media (max-width: 1231px){
 .frame-header,
 .navigation-content-wrapper {
   display: flex;
@@ -190,6 +191,7 @@
   flex-shrink: 0;
   object-fit: cover;
   max-width: 100%;
+}
 }
 .hi-my-name {
   margin: 0;
