@@ -318,19 +318,6 @@
   white-space: nowrap;
   max-width: 100%;
 }
-.image-icon {
-  height: 400px;
-  width: 400px;
-  position: absolute;
-  margin: 0 !important;
-  top: -212px;
-  right: -309px;
-  border-radius: var(--br-381xl);
-  overflow: hidden;
-  flex-shrink: 0;
-  object-fit: cover;
-  z-index: 1;
-}
 .email-address,
 .email-address-wrapper {
   display: flex;
